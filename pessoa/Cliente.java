@@ -28,13 +28,11 @@ public class Cliente extends Pessoa{
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("Cliente{");
-        sb.append("dataDeCompra=").append(dataDeCompra);
-        sb.append(", formaDePagamento=").append(formaDePagamento);
-        sb.append('}');
-        return sb.toString();
+        return "----------------"+ "\n" + "Nome: " + nome + "\n" +
+        "Data da compra: " + dataDeCompra + "\n" +
+        "Idade: " + idade + "\n" +
+        "Forma de pagamento: " + formaDePagamento;
     }
 
-
+    
 }
